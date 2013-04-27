@@ -1,0 +1,16 @@
+main
+var input;
+
+function factRec(n);
+{
+	if n <= 1 then
+		return 1
+	fi;
+	return call factRec(n - 1) * n
+};
+
+{
+	call OutputNum(call factRec(5));
+	call OutputNewLine()
+}
+.

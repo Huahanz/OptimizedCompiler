@@ -1,0 +1,37 @@
+main
+var a, b, c;
+{
+	let a <- 1;
+	let b <- 2;
+	let c <- 3;
+	if a > b then
+		let a <- a + 1;
+		if a < b then
+			let a <- a * 4;
+			let a <-c * 2;
+			if c != a then
+				OutputNum(a);
+				OutputNum(a);
+				let c <-a;
+				OutputNum(c);
+				let a <-c - 2
+			fi
+		fi;
+		let a <-c + 2
+	else
+		OutputNum(a);
+		let b <- b + 5;
+		if a < b then
+			OutputNum(a);
+			let a <- a - 2;
+			OutputNum(a)
+		else
+			OutputNum(a);
+			let a <- a + 3;
+			OutputNum(a)
+		fi;
+		OutputNum(a)
+	fi;
+	let a <- a + 1
+}
+.

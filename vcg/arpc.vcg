@@ -1,0 +1,157 @@
+graph: {title:"color"
+layoutalgorithm: dfs
+manhattan_edges: yes
+smanhattan_edges: yes
+node:{title: "(15)" 
+label:"(15)  color :0 
+  
+(8)(2)"}
+edge: {sourcename: "(15)"
+targetname:"(8)"
+color: blue}
+edge: {sourcename: "(15)"
+targetname:"(2)"
+color: blue}
+node:{title: "(14)" 
+label:"(14)  color :0 
+  
+(9)"}
+edge: {sourcename: "(14)"
+targetname:"(9)"
+color: blue}
+node:{title: "(13)" 
+label:"(13)  color :0 
+  
+(9)"}
+edge: {sourcename: "(13)"
+targetname:"(9)"
+color: blue}
+node:{title: "(12)" 
+label:"(12)  color :0 
+  
+(9)(2)"}
+edge: {sourcename: "(12)"
+targetname:"(9)"
+color: blue}
+edge: {sourcename: "(12)"
+targetname:"(2)"
+color: blue}
+node:{title: "(9)" 
+label:"(9)  color :1 
+  
+(14)(13)(12)(2)(0)"}
+edge: {sourcename: "(9)"
+targetname:"(14)"
+color: blue}
+edge: {sourcename: "(9)"
+targetname:"(13)"
+color: blue}
+edge: {sourcename: "(9)"
+targetname:"(12)"
+color: blue}
+edge: {sourcename: "(9)"
+targetname:"(2)"
+color: blue}
+edge: {sourcename: "(9)"
+targetname:"(0)"
+color: blue}
+node:{title: "(17)" 
+label:"(17)  color :0 
+  
+"}
+node:{title: "(16)" 
+label:"(16)  color :0 
+  
+"}
+node:{title: "(8)" 
+label:"(8)  color :1 
+  
+(15)(2)"}
+edge: {sourcename: "(8)"
+targetname:"(15)"
+color: blue}
+edge: {sourcename: "(8)"
+targetname:"(2)"
+color: blue}
+node:{title: "(7)" 
+label:"(7)  color :0 
+  
+(3)(2)"}
+edge: {sourcename: "(7)"
+targetname:"(3)"
+color: blue}
+edge: {sourcename: "(7)"
+targetname:"(2)"
+color: blue}
+node:{title: "(6)" 
+label:"(6)  color :0 
+  
+(3)(2)"}
+edge: {sourcename: "(6)"
+targetname:"(3)"
+color: blue}
+edge: {sourcename: "(6)"
+targetname:"(2)"
+color: blue}
+node:{title: "(3)" 
+label:"(3)  color :1 
+  
+(7)(6)(2)"}
+edge: {sourcename: "(3)"
+targetname:"(7)"
+color: blue}
+edge: {sourcename: "(3)"
+targetname:"(6)"
+color: blue}
+edge: {sourcename: "(3)"
+targetname:"(2)"
+color: blue}
+node:{title: "(2)" 
+label:"(2)  color :2 
+  
+(9)(12)(8)(15)(3)(7)(6)(0)"}
+edge: {sourcename: "(2)"
+targetname:"(9)"
+color: blue}
+edge: {sourcename: "(2)"
+targetname:"(12)"
+color: blue}
+edge: {sourcename: "(2)"
+targetname:"(8)"
+color: blue}
+edge: {sourcename: "(2)"
+targetname:"(15)"
+color: blue}
+edge: {sourcename: "(2)"
+targetname:"(3)"
+color: blue}
+edge: {sourcename: "(2)"
+targetname:"(7)"
+color: blue}
+edge: {sourcename: "(2)"
+targetname:"(6)"
+color: blue}
+edge: {sourcename: "(2)"
+targetname:"(0)"
+color: blue}
+node:{title: "(1)" 
+label:"(1)  color :0 
+  
+(0)"}
+edge: {sourcename: "(1)"
+targetname:"(0)"
+color: blue}
+node:{title: "(0)" 
+label:"(0)  color :3 
+  
+(2)(9)(1)"}
+edge: {sourcename: "(0)"
+targetname:"(2)"
+color: blue}
+edge: {sourcename: "(0)"
+targetname:"(9)"
+color: blue}
+edge: {sourcename: "(0)"
+targetname:"(1)"
+color: blue}
+}

@@ -1,0 +1,11 @@
+main
+var a;
+function foo( );
+var i;
+{
+	OutputNum(a)
+};
+{
+	let a <- 1;
+	call foo()
+}.

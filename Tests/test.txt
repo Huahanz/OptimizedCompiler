@@ -1,0 +1,15 @@
+main
+var a, b, c,d,e,f,r,m,n,h,j,k;
+{
+let a<-1;
+let b<-2;
+let c<-a+b;
+let d<-m*n;
+let e<-b+d;
+let f<-a+b;
+let h<-b+a;
+let a<-j+a;
+let k<-m*n;
+let j<-b+d;
+let b<-a+b
+}.

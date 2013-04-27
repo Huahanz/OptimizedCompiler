@@ -1,0 +1,436 @@
+graph: {title:"SSA"
+layoutalgorithm: dfs
+manhattan_edges: yes
+smanhattan_edges: yes
+node:{title: "0" 
+label:"
+[0] pnt null 
+ dom -1 br 0 f main 
+(306) [ mov #200  ]
+(307) [ mov #150  ]
+(308) [ mov #110  ]
+(309) [ skLoad 0 !0 ]
+(308) [ gStore 0 ~0 ]
+(306) [ gStore 0 ~1 ]
+(307) [ gStore 0 ~2 ]
+(313) [ retAddr 0 #11 ]
+(313) [ skStore (309) #4 ]
+0 [ skStore (309) #8 ]
+(309) [ skStore (309) #12 ]
+(317) [ add (309) #12 ]
+(317) [ skStore 0 !0 ]
+null [ bsr null 2 ]
+"}
+node:{title: "1" 
+label:"
+[1] pnt 9 
+ dom -1 br 0 f SetNextBit 
+(0) [ skLoad 0 !0 ]
+(1) [ skLoad (0) #-24 ]
+(2) [ skLoad (0) #-20 ]
+(3) [ skLoad (0) #-16 ]
+(4) [ skLoad (0) #-12 ]
+(5) [ gLoad 0 ~0 ]
+(6) [ gLoad 0 ~1 ]
+(7) [ gLoad 0 ~2 ]
+null [ write (4) null ]
+(9) [ add (3) #203 ]
+(10) [ add 0 #1 ]
+(10) [ mul (10) #2 ]
+(12) [ mul (10) (2) ]
+(9) [ add (9) (12) ]
+(15) [ mul (10) (1) ]
+(9) [ add (9) (15) ]
+(17) [ div (4) #2 ]
+(18) [ mul (17) #2 ]
+(19) [ sub (4) (18) ]
+(19) [ arrStore (9) 0 ]
+null [ write (4) null ]
+(5) [ gStore 0 ~0 ]
+(6) [ gStore 0 ~1 ]
+(7) [ gStore 0 ~2 ]
+(26) [ skLoad 0 !0 ]
+(17) [ skStore (26) #-4 ]
+(28) [ skLoad (26) #-8 ]
+null [ return &1 (28) ]
+"}
+node:{title: "2" 
+label:"
+[2] pnt 0 
+ dom -1 br 0 f InitRuleBin 
+(30) [ gLoad 0 ~0 ]
+(31) [ gLoad 0 ~1 ]
+(32) [ gLoad 0 ~2 ]
+(33) [ mov #0 null ]
+(36) [ skLoad 0 !0 ]
+(30) [ skStore (36) #4 ]
+(33) [ skStore (36) #8 ]
+(33) [ skStore (36) #12 ]
+(33) [ skStore (36) #16 ]
+(30) [ skStore (36) #20 ]
+0 [ gStore 0 ~0 ]
+0 [ gStore 0 ~1 ]
+0 [ gStore 0 ~2 ]
+(45) [ retAddr 0 #3 ]
+(45) [ skStore (36) #24 ]
+0 [ skStore (36) #28 ]
+(36) [ skStore (36) #32 ]
+(49) [ add (36) #32 ]
+(49) [ skStore 0 !0 ]
+null [ bsr null 1 ]
+"}
+node:{title: "3" 
+label:"
+[3] pnt null 
+ dom -1 br 0 f InitRuleBin 
+(52) [ skLoad 0 !0 ]
+(53) [ skLoad (52) #-4 ]
+(54) [ skLoad (52) 0 ]
+(54) [ skStore 0 !0 ]
+(30) [ skLoad (54) #4 ]
+(30) [ skLoad (54) #8 ]
+(31) [ skLoad (54) #12 ]
+(32) [ skLoad (54) #16 ]
+(33) [ skLoad (54) #20 ]
+(34) [ skLoad (54) #24 ]
+(35) [ skLoad (54) #28 ]
+(30) [ skLoad (54) #32 ]
+(64) [ gLoad 0 ~0 ]
+(65) [ gLoad 0 ~1 ]
+(66) [ gLoad 0 ~2 ]
+(67) [ mov #0 null ]
+(69) [ mov #1 null ]
+(70) [ skLoad 0 !0 ]
+(53) [ skStore (70) #4 ]
+(67) [ skStore (70) #8 ]
+(67) [ skStore (70) #12 ]
+(69) [ skStore (70) #16 ]
+(53) [ skStore (70) #20 ]
+(64) [ gStore 0 ~0 ]
+(65) [ gStore 0 ~1 ]
+(66) [ gStore 0 ~2 ]
+(79) [ retAddr 0 #4 ]
+(79) [ skStore (70) #24 ]
+0 [ skStore (70) #28 ]
+(70) [ skStore (70) #32 ]
+(83) [ add (70) #32 ]
+(83) [ skStore 0 !0 ]
+null [ bsr null 1 ]
+"}
+node:{title: "4" 
+label:"
+[4] pnt null 
+ dom -1 br 0 f InitRuleBin 
+(86) [ skLoad 0 !0 ]
+(87) [ skLoad (86) #-4 ]
+(88) [ skLoad (86) 0 ]
+(88) [ skStore 0 !0 ]
+(53) [ skLoad (88) #4 ]
+(64) [ skLoad (88) #8 ]
+(65) [ skLoad (88) #12 ]
+(66) [ skLoad (88) #16 ]
+(67) [ skLoad (88) #20 ]
+(68) [ skLoad (88) #24 ]
+(69) [ skLoad (88) #28 ]
+(53) [ skLoad (88) #32 ]
+(98) [ gLoad 0 ~0 ]
+(99) [ gLoad 0 ~1 ]
+(100) [ gLoad 0 ~2 ]
+(101) [ mov #0 null ]
+(102) [ mov #1 null ]
+(104) [ skLoad 0 !0 ]
+(87) [ skStore (104) #4 ]
+(101) [ skStore (104) #8 ]
+(102) [ skStore (104) #12 ]
+(101) [ skStore (104) #16 ]
+(87) [ skStore (104) #20 ]
+(98) [ gStore 0 ~0 ]
+(99) [ gStore 0 ~1 ]
+(100) [ gStore 0 ~2 ]
+(113) [ retAddr 0 #5 ]
+(113) [ skStore (104) #24 ]
+0 [ skStore (104) #28 ]
+(104) [ skStore (104) #32 ]
+(117) [ add (104) #32 ]
+(117) [ skStore 0 !0 ]
+null [ bsr null 1 ]
+"}
+node:{title: "5" 
+label:"
+[5] pnt null 
+ dom -1 br 0 f InitRuleBin 
+(120) [ skLoad 0 !0 ]
+(121) [ skLoad (120) #-4 ]
+(122) [ skLoad (120) 0 ]
+(122) [ skStore 0 !0 ]
+(87) [ skLoad (122) #4 ]
+(98) [ skLoad (122) #8 ]
+(99) [ skLoad (122) #12 ]
+(100) [ skLoad (122) #16 ]
+(101) [ skLoad (122) #20 ]
+(102) [ skLoad (122) #24 ]
+(103) [ skLoad (122) #28 ]
+(87) [ skLoad (122) #32 ]
+(132) [ gLoad 0 ~0 ]
+(133) [ gLoad 0 ~1 ]
+(134) [ gLoad 0 ~2 ]
+(135) [ mov #0 null ]
+(136) [ mov #1 null ]
+(138) [ skLoad 0 !0 ]
+(121) [ skStore (138) #4 ]
+(135) [ skStore (138) #8 ]
+(136) [ skStore (138) #12 ]
+(136) [ skStore (138) #16 ]
+(121) [ skStore (138) #20 ]
+(132) [ gStore 0 ~0 ]
+(133) [ gStore 0 ~1 ]
+(134) [ gStore 0 ~2 ]
+(147) [ retAddr 0 #6 ]
+(147) [ skStore (138) #24 ]
+0 [ skStore (138) #28 ]
+(138) [ skStore (138) #32 ]
+(151) [ add (138) #32 ]
+(151) [ skStore 0 !0 ]
+null [ bsr null 1 ]
+"}
+node:{title: "6" 
+label:"
+[6] pnt null 
+ dom -1 br 0 f InitRuleBin 
+(154) [ skLoad 0 !0 ]
+(155) [ skLoad (154) #-4 ]
+(156) [ skLoad (154) 0 ]
+(156) [ skStore 0 !0 ]
+(121) [ skLoad (156) #4 ]
+(132) [ skLoad (156) #8 ]
+(133) [ skLoad (156) #12 ]
+(134) [ skLoad (156) #16 ]
+(135) [ skLoad (156) #20 ]
+(136) [ skLoad (156) #24 ]
+(137) [ skLoad (156) #28 ]
+(121) [ skLoad (156) #32 ]
+(166) [ gLoad 0 ~0 ]
+(167) [ gLoad 0 ~1 ]
+(168) [ gLoad 0 ~2 ]
+(169) [ mov #1 null ]
+(170) [ mov #0 null ]
+(172) [ skLoad 0 !0 ]
+(155) [ skStore (172) #4 ]
+(169) [ skStore (172) #8 ]
+(170) [ skStore (172) #12 ]
+(170) [ skStore (172) #16 ]
+(155) [ skStore (172) #20 ]
+(166) [ gStore 0 ~0 ]
+(167) [ gStore 0 ~1 ]
+(168) [ gStore 0 ~2 ]
+(181) [ retAddr 0 #7 ]
+(181) [ skStore (172) #24 ]
+0 [ skStore (172) #28 ]
+(172) [ skStore (172) #32 ]
+(185) [ add (172) #32 ]
+(185) [ skStore 0 !0 ]
+null [ bsr null 1 ]
+"}
+node:{title: "7" 
+label:"
+[7] pnt null 
+ dom -1 br 0 f InitRuleBin 
+(188) [ skLoad 0 !0 ]
+(189) [ skLoad (188) #-4 ]
+(190) [ skLoad (188) 0 ]
+(190) [ skStore 0 !0 ]
+(155) [ skLoad (190) #4 ]
+(166) [ skLoad (190) #8 ]
+(167) [ skLoad (190) #12 ]
+(168) [ skLoad (190) #16 ]
+(169) [ skLoad (190) #20 ]
+(170) [ skLoad (190) #24 ]
+(171) [ skLoad (190) #28 ]
+(155) [ skLoad (190) #32 ]
+(200) [ gLoad 0 ~0 ]
+(201) [ gLoad 0 ~1 ]
+(202) [ gLoad 0 ~2 ]
+(203) [ mov #1 null ]
+(204) [ mov #0 null ]
+(206) [ skLoad 0 !0 ]
+(189) [ skStore (206) #4 ]
+(203) [ skStore (206) #8 ]
+(204) [ skStore (206) #12 ]
+(203) [ skStore (206) #16 ]
+(189) [ skStore (206) #20 ]
+(200) [ gStore 0 ~0 ]
+(201) [ gStore 0 ~1 ]
+(202) [ gStore 0 ~2 ]
+(215) [ retAddr 0 #8 ]
+(215) [ skStore (206) #24 ]
+0 [ skStore (206) #28 ]
+(206) [ skStore (206) #32 ]
+(219) [ add (206) #32 ]
+(219) [ skStore 0 !0 ]
+null [ bsr null 1 ]
+"}
+node:{title: "8" 
+label:"
+[8] pnt null 
+ dom -1 br 0 f InitRuleBin 
+(222) [ skLoad 0 !0 ]
+(223) [ skLoad (222) #-4 ]
+(224) [ skLoad (222) 0 ]
+(224) [ skStore 0 !0 ]
+(189) [ skLoad (224) #4 ]
+(200) [ skLoad (224) #8 ]
+(201) [ skLoad (224) #12 ]
+(202) [ skLoad (224) #16 ]
+(203) [ skLoad (224) #20 ]
+(204) [ skLoad (224) #24 ]
+(205) [ skLoad (224) #28 ]
+(189) [ skLoad (224) #32 ]
+(234) [ gLoad 0 ~0 ]
+(235) [ gLoad 0 ~1 ]
+(236) [ gLoad 0 ~2 ]
+(237) [ mov #1 null ]
+(239) [ mov #0 null ]
+(240) [ skLoad 0 !0 ]
+(223) [ skStore (240) #4 ]
+(237) [ skStore (240) #8 ]
+(237) [ skStore (240) #12 ]
+(239) [ skStore (240) #16 ]
+(223) [ skStore (240) #20 ]
+(234) [ gStore 0 ~0 ]
+(235) [ gStore 0 ~1 ]
+(236) [ gStore 0 ~2 ]
+(249) [ retAddr 0 #9 ]
+(249) [ skStore (240) #24 ]
+0 [ skStore (240) #28 ]
+(240) [ skStore (240) #32 ]
+(253) [ add (240) #32 ]
+(253) [ skStore 0 !0 ]
+null [ bsr null 1 ]
+"}
+node:{title: "9" 
+label:"
+[9] pnt null 
+ dom -1 br 0 f InitRuleBin 
+(256) [ skLoad 0 !0 ]
+(257) [ skLoad (256) #-4 ]
+(258) [ skLoad (256) 0 ]
+(258) [ skStore 0 !0 ]
+(223) [ skLoad (258) #4 ]
+(234) [ skLoad (258) #8 ]
+(235) [ skLoad (258) #12 ]
+(236) [ skLoad (258) #16 ]
+(237) [ skLoad (258) #20 ]
+(238) [ skLoad (258) #24 ]
+(239) [ skLoad (258) #28 ]
+(223) [ skLoad (258) #32 ]
+(268) [ gLoad 0 ~0 ]
+(269) [ gLoad 0 ~1 ]
+(270) [ gLoad 0 ~2 ]
+(271) [ mov #1 null ]
+(274) [ skLoad 0 !0 ]
+(257) [ skStore (274) #4 ]
+(271) [ skStore (274) #8 ]
+(271) [ skStore (274) #12 ]
+(271) [ skStore (274) #16 ]
+(257) [ skStore (274) #20 ]
+(268) [ gStore 0 ~0 ]
+(269) [ gStore 0 ~1 ]
+(270) [ gStore 0 ~2 ]
+(283) [ retAddr 0 #10 ]
+(283) [ skStore (274) #24 ]
+0 [ skStore (274) #28 ]
+(274) [ skStore (274) #32 ]
+(287) [ add (274) #32 ]
+(287) [ skStore 0 !0 ]
+null [ bsr null 1 ]
+"}
+node:{title: "10" 
+label:"
+[10] pnt null 
+ dom -1 br 0 f InitRuleBin 
+(290) [ skLoad 0 !0 ]
+(291) [ skLoad (290) #-4 ]
+(292) [ skLoad (290) 0 ]
+(292) [ skStore 0 !0 ]
+(257) [ skLoad (292) #4 ]
+(268) [ skLoad (292) #8 ]
+(269) [ skLoad (292) #12 ]
+(270) [ skLoad (292) #16 ]
+(271) [ skLoad (292) #20 ]
+(272) [ skLoad (292) #24 ]
+(273) [ skLoad (292) #28 ]
+(257) [ skLoad (292) #32 ]
+(302) [ gLoad 0 ~0 ]
+(303) [ gLoad 0 ~1 ]
+(304) [ gLoad 0 ~2 ]
+null [ write (291) null ]
+null [ bsr null 11 ]
+"}
+node:{title: "11" 
+label:"
+[11] pnt null 
+ dom -1 br 0 f main 
+(321) [ skLoad 0 !0 ]
+(322) [ skLoad (321) #-4 ]
+(323) [ skLoad (321) 0 ]
+(323) [ skStore 0 !0 ]
+(325) [ gLoad 0 ~0 ]
+(326) [ gLoad 0 ~1 ]
+(327) [ gLoad 0 ~2 ]
+"}
+edge: { sourcename: "2"
+targetname: "1"
+color: red
+}edge: { sourcename: "1"
+targetname: "3"
+color: red
+}edge: { sourcename: "3"
+targetname: "1"
+color: red
+}edge: { sourcename: "1"
+targetname: "4"
+color: red
+}edge: { sourcename: "4"
+targetname: "1"
+color: red
+}edge: { sourcename: "1"
+targetname: "5"
+color: red
+}edge: { sourcename: "5"
+targetname: "1"
+color: red
+}edge: { sourcename: "1"
+targetname: "6"
+color: red
+}edge: { sourcename: "6"
+targetname: "1"
+color: red
+}edge: { sourcename: "1"
+targetname: "7"
+color: red
+}edge: { sourcename: "7"
+targetname: "1"
+color: red
+}edge: { sourcename: "1"
+targetname: "8"
+color: red
+}edge: { sourcename: "8"
+targetname: "1"
+color: red
+}edge: { sourcename: "1"
+targetname: "9"
+color: red
+}edge: { sourcename: "9"
+targetname: "1"
+color: red
+}edge: { sourcename: "1"
+targetname: "10"
+color: red
+}edge: { sourcename: "0"
+targetname: "2"
+color: red
+}edge: { sourcename: "10"
+targetname: "11"
+color: red
+}
+}

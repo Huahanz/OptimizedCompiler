@@ -1,0 +1,14 @@
+main
+var i, c;
+{
+	let c <- 100;
+	let i <- 0;
+	while i < c do
+		let i <- i+1
+	od;
+	let b <- c + 1;
+OutputNum(a);
+OutputNum(b);
+OutputNum(c)
+}
+.

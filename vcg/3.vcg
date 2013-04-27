@@ -1,0 +1,43 @@
+graph: {title:"SSA"
+layoutalgorithm: dfs
+manhattan_edges: yes
+smanhattan_edges: yes
+node:{title: "0" 
+label:"
+[0] dom [-1] to [1] 
+(0) [ mov #0  ]
+"}
+edge: {sourcename: "0"
+targetname:"1"
+color: red}
+node:{title: "1" 
+label:"
+[1] dom [-1] to [2] 
+(1) [ Phi (0) (8) ]
+(2) [ cmp (1) #10 ]
+null [ bge (2) 3 ]
+"}
+edge: {sourcename: "1"
+targetname:"3"
+color: red}
+node:{title: "3" 
+label:"
+[3] dom [-1] to [3] 
+"}
+edge: {sourcename: "1"
+targetname:"2"
+color: red}
+node:{title: "2" 
+label:"
+[2] dom [1] to [1] 
+(4) [ read null null ]
+(5) [ add (4) #10 ]
+(6) [ mul (5) #20 ]
+null [ write (6) null ]
+(8) [ add (1) #1 ]
+"}
+edge: { sourcename: "1"
+targetname: "3"
+color: red
+}
+}

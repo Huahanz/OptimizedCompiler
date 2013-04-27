@@ -1,0 +1,36 @@
+main
+var a, b, c,e,f,d,i,g;
+{
+let a<-1;
+let b<-1;
+let c<-1;
+let d<-1;
+let e<-1;
+let f<-1;
+let g<-1;
+let i<-1;
+OutputNum(g);
+OutputNum(f);
+	let c <- a+b;
+	let d <- a*c;
+	let e <- d*d;
+	OutputNum(g+f);
+	OutputNum(i+i);
+	let i<-1;
+while i>10 do 
+let f <- a+b;
+let c<-c*2;
+	if c>d then
+		OutputNum(g);
+		let g <- a*c;
+		OutputNum(i)
+	else
+		OutputNum(g);
+		let g <- d*d;
+		OutputNum(i)
+	fi;
+let i<-i+1
+
+od
+}
+.
