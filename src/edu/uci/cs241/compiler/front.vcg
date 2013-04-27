@@ -1,0 +1,55 @@
+graph: {title:"SSA"
+layoutalgorithm: dfs
+manhattan_edges: yes
+smanhattan_edges: yes
+node:{title: "0" 
+label:"
+[0] pnt null 
+ dom -1 br 1 f main 
+suc1, 
+ pre 
+(0) [ mov #0  ]
+"}
+edge: {sourcename: "0"
+targetname:"1"
+color: blue}
+node:{title: "1" 
+label:"
+[1] pnt 0 
+ dom -1 br 0 f main 
+suc3, 
+ pre 0, 
+(1) [ Phi (0) (8) ]
+(2) [ cmp (1) #10 ]
+null [ bge (2) 3 ]
+"}
+edge: {sourcename: "1"
+targetname:"2"
+color: blue}
+node:{title: "2" 
+label:"
+[2] pnt 1 
+ dom 1 br 2 f main 
+suc
+ pre 1, 
+(4) [ read null null ]
+(5) [ add (4) #10 ]
+(6) [ mul (5) #20 ]
+null [ write (6) null ]
+(8) [ add (1) #1 ]
+"}
+edge: {sourcename: "2"
+targetname:"1"
+color: blue}
+node:{title: "3" 
+label:"
+[3] pnt 1 
+ dom -1 br 0 f main 
+suc
+ pre 1, 
+"}
+edge: { sourcename: "1"
+targetname: "3"
+color: red
+}
+}

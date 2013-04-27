@@ -1,0 +1,14 @@
+main
+var a,b,c;
+{
+	let a <-3;
+	
+	let b<-2; 
+	let c <- a+b;
+	while c < 1	do
+		OutputNum(c);
+		let c <- 3 * c
+	od;
+	OutputNum(c)
+}
+.

@@ -1,0 +1,62 @@
+main
+var x1, y0 , yy;
+var i;
+var j;
+
+{
+if i > 0 then 
+	if i > 0 then 
+		let i <- i;
+		let i <- i+1;
+		let j <- i+1;
+		let j <- i;
+		if i > 10 then
+		let i <- i;
+		let i <- i+1;
+		let j <- i
+		else
+		let i <- i
+		fi
+		
+	else
+		let i <- i;
+		
+		if i > 10 then
+		let i <- i;
+		let i <- i+1;
+		let j <- i
+		else
+		let i <- i
+		fi
+	fi;
+
+	let i <- i
+
+else
+	let i <- i;
+
+	if i > 0 then 
+		let i <- i;
+		let i <- i+1;
+		let j <- i;
+		if i > 10 then
+		let i <- i;
+		let i <- i+1;
+		let j <- i
+		else
+		let i <- i
+		fi
+		
+	else
+		let i <- i;
+		if i > 10 then
+		let i <- i
+		else
+		let i <- i
+		fi
+	fi;
+
+	let i <- i
+fi;
+let i <- i
+}.

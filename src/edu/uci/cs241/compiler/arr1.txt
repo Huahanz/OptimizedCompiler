@@ -1,0 +1,15 @@
+main
+var a;
+array[10][9][9] a,b,c;
+{
+	let a <-3;
+	
+	let a<-2; 
+	let a[1][0][8] <- 771;
+	
+	
+	let b[1][0][8] <- 321;
+	OutputNum(a[1][0][8]);
+	OutputNum(b[1][0][8])
+}
+.

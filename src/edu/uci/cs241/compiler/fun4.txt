@@ -1,0 +1,15 @@
+main
+var x, y;
+procedure baz( a, b );
+var c, d;
+{
+OutputNum(x);
+OutputNum(y)
+};
+{
+	let x <- 3;
+	let y <- 2;
+	call baz( x, y );
+	OutputNum(y)
+}
+.
