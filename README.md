@@ -2,7 +2,7 @@
 
 =================
 
-This is an optimized C Complier totally from scratch. Sure it's a sample compiler, and support most of the basic language functionalities. Running on a simulator [DLX](https://github.com/Huahanz/OptimizedCompiler/blob/master/DLX.java, "").
+This is an optimized C Complier totally from scratch. Sure it's a sample compiler, but support most of the basic language functionalities. Running on a simulator [DLX](https://github.com/Huahanz/OptimizedCompiler/blob/master/DLX.java, "").
 
 Other than the basic functionalities, this compiler also support : [Multi dimension array and pointer access](https://github.com/Huahanz/OptimizedCompiler/blob/master/Tests/arr2.txt ""), [Recursive function call](https://github.com/Huahanz/OptimizedCompiler/blob/master/Tests/fun6.txt, ""), [Big file tests](https://github.com/Huahanz/OptimizedCompiler/blob/master/Tests/tbig.txt "").
 
